@@ -28,5 +28,11 @@
     // Insert code here to tear down your application
 }
 
+- (IBAction)throwException:(id)sender;
+{
+    id something = nil;
+    NSMutableArray *array = [NSMutableArray array];
+    [array addObject:something];
+}
 
 @end

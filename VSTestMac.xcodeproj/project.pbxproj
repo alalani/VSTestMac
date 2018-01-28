@@ -610,7 +610,6 @@
 			baseConfigurationReference = 1C66FE25A30A59B7DD36B8A9 /* Pods-VSTestMac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = VSTestMac/VSTestMac.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = J4JZVUTYXB;
@@ -626,7 +625,6 @@
 			baseConfigurationReference = E5F4F015EDAED2075977618E /* Pods-VSTestMac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = VSTestMac/VSTestMac.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = J4JZVUTYXB;
