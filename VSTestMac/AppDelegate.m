@@ -8,6 +8,10 @@
 
 #import "AppDelegate.h"
 
+@import AppCenter;
+@import AppCenterCrashes;
+@import AppCenterAnalytics;
+
 @interface AppDelegate ()
 
 @property (weak) IBOutlet NSWindow *window;
@@ -16,7 +20,7 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    [MSAppCenter start:@"e510976b-795c-4fe1-93ca-d5b1f9073d45" withServices:@[MSAnalytics.class,MSCrashes.class]];
 }
 
 
