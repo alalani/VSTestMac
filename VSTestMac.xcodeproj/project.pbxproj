@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCC7A0BB201E221E002C4CF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC7A0BA201E221E002C4CF3 /* AppDelegate.m */; };
+		FCC7A0BD201E221E002C4CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC7A0BC201E221E002C4CF3 /* Assets.xcassets */; };
+		FCC7A0C0201E221E002C4CF3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCC7A0BE201E221E002C4CF3 /* MainMenu.xib */; };
+		FCC7A0C3201E221E002C4CF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC7A0C2201E221E002C4CF3 /* main.m */; };
+		FCC7A0CE201E221E002C4CF3 /* VSTestMacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC7A0CD201E221E002C4CF3 /* VSTestMacTests.m */; };
+		FCC7A0D9201E221E002C4CF3 /* VSTestMacUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCC7A0D8201E221E002C4CF3 /* VSTestMacUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCC7A0CA201E221E002C4CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC7A0AE201E221E002C4CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC7A0B5201E221E002C4CF3;
+			remoteInfo = VSTestMac;
+		};
+		FCC7A0D5201E221E002C4CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCC7A0AE201E221E002C4CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC7A0B5201E221E002C4CF3;
+			remoteInfo = VSTestMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCC7A0B6201E221E002C4CF3 /* VSTestMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSTestMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC7A0B9201E221E002C4CF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCC7A0BA201E221E002C4CF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCC7A0BC201E221E002C4CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCC7A0BF201E221E002C4CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FCC7A0C1201E221E002C4CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC7A0C2201E221E002C4CF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCC7A0C4201E221E002C4CF3 /* VSTestMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VSTestMac.entitlements; sourceTree = "<group>"; };
+		FCC7A0C9201E221E002C4CF3 /* VSTestMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSTestMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC7A0CD201E221E002C4CF3 /* VSTestMacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSTestMacTests.m; sourceTree = "<group>"; };
+		FCC7A0CF201E221E002C4CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC7A0D4201E221E002C4CF3 /* VSTestMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSTestMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC7A0D8201E221E002C4CF3 /* VSTestMacUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSTestMacUITests.m; sourceTree = "<group>"; };
+		FCC7A0DA201E221E002C4CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCC7A0B3201E221E002C4CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC7A0C6201E221E002C4CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC7A0D1201E221E002C4CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCC7A0AD201E221E002C4CF3 = {
+			isa = PBXGroup;
+			children = (
+				FCC7A0B8201E221E002C4CF3 /* VSTestMac */,
+				FCC7A0CC201E221E002C4CF3 /* VSTestMacTests */,
+				FCC7A0D7201E221E002C4CF3 /* VSTestMacUITests */,
+				FCC7A0B7201E221E002C4CF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCC7A0B7201E221E002C4CF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCC7A0B6201E221E002C4CF3 /* VSTestMac.app */,
+				FCC7A0C9201E221E002C4CF3 /* VSTestMacTests.xctest */,
+				FCC7A0D4201E221E002C4CF3 /* VSTestMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC7A0B8201E221E002C4CF3 /* VSTestMac */ = {
+			isa = PBXGroup;
+			children = (
+				FCC7A0B9201E221E002C4CF3 /* AppDelegate.h */,
+				FCC7A0BA201E221E002C4CF3 /* AppDelegate.m */,
+				FCC7A0BC201E221E002C4CF3 /* Assets.xcassets */,
+				FCC7A0BE201E221E002C4CF3 /* MainMenu.xib */,
+				FCC7A0C1201E221E002C4CF3 /* Info.plist */,
+				FCC7A0C2201E221E002C4CF3 /* main.m */,
+				FCC7A0C4201E221E002C4CF3 /* VSTestMac.entitlements */,
+			);
+			path = VSTestMac;
+			sourceTree = "<group>";
+		};
+		FCC7A0CC201E221E002C4CF3 /* VSTestMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCC7A0CD201E221E002C4CF3 /* VSTestMacTests.m */,
+				FCC7A0CF201E221E002C4CF3 /* Info.plist */,
+			);
+			path = VSTestMacTests;
+			sourceTree = "<group>";
+		};
+		FCC7A0D7201E221E002C4CF3 /* VSTestMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCC7A0D8201E221E002C4CF3 /* VSTestMacUITests.m */,
+				FCC7A0DA201E221E002C4CF3 /* Info.plist */,
+			);
+			path = VSTestMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCC7A0B5201E221E002C4CF3 /* VSTestMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC7A0DD201E221E002C4CF3 /* Build configuration list for PBXNativeTarget "VSTestMac" */;
+			buildPhases = (
+				FCC7A0B2201E221E002C4CF3 /* Sources */,
+				FCC7A0B3201E221E002C4CF3 /* Frameworks */,
+				FCC7A0B4201E221E002C4CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VSTestMac;
+			productName = VSTestMac;
+			productReference = FCC7A0B6201E221E002C4CF3 /* VSTestMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCC7A0C8201E221E002C4CF3 /* VSTestMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC7A0E0201E221E002C4CF3 /* Build configuration list for PBXNativeTarget "VSTestMacTests" */;
+			buildPhases = (
+				FCC7A0C5201E221E002C4CF3 /* Sources */,
+				FCC7A0C6201E221E002C4CF3 /* Frameworks */,
+				FCC7A0C7201E221E002C4CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCC7A0CB201E221E002C4CF3 /* PBXTargetDependency */,
+			);
+			name = VSTestMacTests;
+			productName = VSTestMacTests;
+			productReference = FCC7A0C9201E221E002C4CF3 /* VSTestMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCC7A0D3201E221E002C4CF3 /* VSTestMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC7A0E3201E221E002C4CF3 /* Build configuration list for PBXNativeTarget "VSTestMacUITests" */;
+			buildPhases = (
+				FCC7A0D0201E221E002C4CF3 /* Sources */,
+				FCC7A0D1201E221E002C4CF3 /* Frameworks */,
+				FCC7A0D2201E221E002C4CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCC7A0D6201E221E002C4CF3 /* PBXTargetDependency */,
+			);
+			name = VSTestMacUITests;
+			productName = VSTestMacUITests;
+			productReference = FCC7A0D4201E221E002C4CF3 /* VSTestMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCC7A0AE201E221E002C4CF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Lalani ltd.";
+				TargetAttributes = {
+					FCC7A0B5201E221E002C4CF3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					FCC7A0C8201E221E002C4CF3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCC7A0B5201E221E002C4CF3;
+					};
+					FCC7A0D3201E221E002C4CF3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCC7A0B5201E221E002C4CF3;
+					};
+				};
+			};
+			buildConfigurationList = FCC7A0B1201E221E002C4CF3 /* Build configuration list for PBXProject "VSTestMac" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCC7A0AD201E221E002C4CF3;
+			productRefGroup = FCC7A0B7201E221E002C4CF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCC7A0B5201E221E002C4CF3 /* VSTestMac */,
+				FCC7A0C8201E221E002C4CF3 /* VSTestMacTests */,
+				FCC7A0D3201E221E002C4CF3 /* VSTestMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCC7A0B4201E221E002C4CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC7A0BD201E221E002C4CF3 /* Assets.xcassets in Resources */,
+				FCC7A0C0201E221E002C4CF3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC7A0C7201E221E002C4CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC7A0D2201E221E002C4CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCC7A0B2201E221E002C4CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC7A0C3201E221E002C4CF3 /* main.m in Sources */,
+				FCC7A0BB201E221E002C4CF3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC7A0C5201E221E002C4CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC7A0CE201E221E002C4CF3 /* VSTestMacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC7A0D0201E221E002C4CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC7A0D9201E221E002C4CF3 /* VSTestMacUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCC7A0CB201E221E002C4CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCC7A0B5201E221E002C4CF3 /* VSTestMac */;
+			targetProxy = FCC7A0CA201E221E002C4CF3 /* PBXContainerItemProxy */;
+		};
+		FCC7A0D6201E221E002C4CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCC7A0B5201E221E002C4CF3 /* VSTestMac */;
+			targetProxy = FCC7A0D5201E221E002C4CF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCC7A0BE201E221E002C4CF3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCC7A0BF201E221E002C4CF3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCC7A0DB201E221E002C4CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FCC7A0DC201E221E002C4CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FCC7A0DE201E221E002C4CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VSTestMac/VSTestMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J4JZVUTYXB;
+				INFOPLIST_FILE = VSTestMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalani.VSTestMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FCC7A0DF201E221E002C4CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VSTestMac/VSTestMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J4JZVUTYXB;
+				INFOPLIST_FILE = VSTestMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalani.VSTestMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FCC7A0E1201E221E002C4CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J4JZVUTYXB;
+				INFOPLIST_FILE = VSTestMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalani.VSTestMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSTestMac.app/Contents/MacOS/VSTestMac";
+			};
+			name = Debug;
+		};
+		FCC7A0E2201E221E002C4CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J4JZVUTYXB;
+				INFOPLIST_FILE = VSTestMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalani.VSTestMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VSTestMac.app/Contents/MacOS/VSTestMac";
+			};
+			name = Release;
+		};
+		FCC7A0E4201E221E002C4CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J4JZVUTYXB;
+				INFOPLIST_FILE = VSTestMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalani.VSTestMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VSTestMac;
+			};
+			name = Debug;
+		};
+		FCC7A0E5201E221E002C4CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = J4JZVUTYXB;
+				INFOPLIST_FILE = VSTestMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalani.VSTestMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VSTestMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCC7A0B1201E221E002C4CF3 /* Build configuration list for PBXProject "VSTestMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC7A0DB201E221E002C4CF3 /* Debug */,
+				FCC7A0DC201E221E002C4CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC7A0DD201E221E002C4CF3 /* Build configuration list for PBXNativeTarget "VSTestMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC7A0DE201E221E002C4CF3 /* Debug */,
+				FCC7A0DF201E221E002C4CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC7A0E0201E221E002C4CF3 /* Build configuration list for PBXNativeTarget "VSTestMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC7A0E1201E221E002C4CF3 /* Debug */,
+				FCC7A0E2201E221E002C4CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC7A0E3201E221E002C4CF3 /* Build configuration list for PBXNativeTarget "VSTestMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC7A0E4201E221E002C4CF3 /* Debug */,
+				FCC7A0E5201E221E002C4CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCC7A0AE201E221E002C4CF3 /* Project object */;
+}
